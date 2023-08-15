@@ -1,0 +1,21 @@
+Array => [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+7 -> Root node is determined.
+
+8 -> 8 is added to the right of 7.
+
+5 -> 5 is added to the left of 7.
+
+1 -> 1 is added to the left of 5.
+
+3 -> 3 is added to the right of 1.
+
+6 -> 6 is added to the right of 5.
+
+0 -> 0 is added to the left of 1.
+
+9 -> 9 is added to the right of 8.
+
+2 -> 2 is added to the left of 9.
+
+4 -> 4 is added to the left of 2.
