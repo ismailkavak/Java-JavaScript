@@ -1,0 +1,22 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+[16, 21, 11] [8, 12, 22]
+
+The array is divided into two halves.
+[16, 21] [11] [8, 12] [22]
+
+Each subarray is divided into two halves again.
+[16] [21] [11] [8] [12] [22]
+
+Each subarray is divided into two halves again.
+[16, 21] [11] [8, 12] [22]
+
+Subarrays divided in the first step are merged.
+[11, 16, 21] [8, 12, 22]
+
+Subarrays divided in the second step are merged in order.
+[8, 11, 12, 16, 21, 22]
+
+In the final step, all subarrays are merged to produce the sorted array.
+
+Big O Notation : O(nlogn)
